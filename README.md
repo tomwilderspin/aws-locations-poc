@@ -1,29 +1,9 @@
-# aws-locations-poc
+# AWS Locations service demo
 
-## Project setup
-```
-npm install
-```
+A small demo web app of the new AWS locations service. Shows the use of address geocoding lookup and map tile display.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<img src="./preview.gif" width="300">
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+Uses AWS Cognito for auth, location service + mapbox for map tiles & geocoding, VueJS for display.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
